@@ -81,7 +81,5 @@ function playGame () {
     computerScore = 0;
     // startNewGame()
 }
-console.log(humanScore);
-console.log(computerScore);
 
 startButton.addEventListener("click", playGame)
