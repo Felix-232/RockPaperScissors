@@ -77,7 +77,11 @@ function playGame () {
         playRound();
     }
     didHumanWin()
+    humanScore = 0;
+    computerScore = 0;
     // startNewGame()
 }
+console.log(humanScore);
+console.log(computerScore);
 
 startButton.addEventListener("click", playGame)
